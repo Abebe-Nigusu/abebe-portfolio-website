@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+/* This is a CSS file for template website */
+
+body{
+	 font-family: "Roboto", sans-serif;
+	 color: #333333;
+	 margin: 0;
+}
+
+h1, h2{
+	font-family: "Changa One", sans-serif;
+	/*color: #a64dff;*/
+}
+
+header{
+	text-align: center;
+  background-color: black;
+  margin-bottom: 0px;
+  color: white;
+}
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+nav{
+  text-align: center;
+  background-color: #cc99ff;
+  border-bottom: 3px solid black ;
+  border-top: 3px solid black;
+  margin-top: 0px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  marging: 8px 0;
+
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav a:link{
+  color:purple;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:red;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+  background-color: #9494b8;
+}
+/*main .col-sm-10{
+  text-align: center;
+}*/
+.icon-essay{
+  background-color: lightblue;
+  margin: 30px 150px 30px 150px;
+  color: purple;
+  text-align: left;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+main .fa-camera-retro{
+  font-size: 50px;
+  color: purple;
+  width: 50px;
+  height: 50px;
+}
+
+/*.col-sm-6 p{
+  text-align: center;
+}*/
+footer{
+	text-align: center;
+  border-top: purple 4px solid;
+  background-color: rebeccapurple;
+  color: white;
+}
+.copy-right{
+  background-color: black;
+  height: 35px;
+}
+
+footer .first-col{
+  text-align: left;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+  font-size: 4em;
+}
+
+
+.hero-image{
+  border: rebeccapurple 3px double;
+  border-radius: 30px;
+  margin:0 auto ;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 25px 10px 10px 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* Css Adjustments for tablets */
+
+@media only screen and (max-width: 1024px){
+    h1{
+    font-size: 2em;
+    }
+
+}
+
+/* Css Adjustments for smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+    font-size: 1.5em;
+  }
+ 
+}

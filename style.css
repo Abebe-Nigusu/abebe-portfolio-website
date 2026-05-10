@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* This is a CSS file for Abebe's portfolio website */
+
+body{
+	 font-family: "Roboto", sans-serif;
+	 color: #333333;
+	 margin: 0;
+   border-top: 5px solid #4da6ff;
+   border-bottom: 5px solid #4da6ff;;
+}
+
+h1, h2, h3{
+	font-family: "Changa One", sans-serif;
+	color: #1155cc;
+}
+
+header{
+	text-align: center;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+a:link{
+  color: #1155cc;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+nav{
+  text-align: center;
+  background-color: #333333;
+  border-bottom: 3px solid #cce6ff ;
+  border-top: 3px solid #cce6ff;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+nav a:link{
+  color:#ff9900;
+}
+nav a:visited{
+  color:#ffffff;
+}
+nav a:hover{
+  color:#1aff1a;
+}
+nav a:active{
+  color:red;
+}
+
+
+.home-hero{
+  background-image: url("images/computer-binary.jpg");
+  background-size: cover;
+  background-color: #330000;
+  background-repeat: no-repeat;
+  height: 250px;
+  padding: 20px;
+  /*width: 100%;*/
+}
+
+.home-hero img {
+  margin: 0 auto;
+  display: block;
+  max-width: 300;
+  border-radius: 50%;
+}
+
+.home-hero h1{
+  text-align: center;
+  margin: 0;
+  padding:  20px 0;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+}
+
+.about-image{
+
+  border-radius: 10px;
+  box-shadow: 5px 5px #bfbfbf;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+ /* margin-top: 5px;
+  margin-right: 5px;*/
+}
+
+.about-me{
+  padding: 15px 0;
+  background-color: #f8f9fa;
+}
+
+.third-row{
+   background-color: #f8f9fa;
+   /*padding-top: 15px;*/
+}
+
+.logo{
+  margin: 0 auto;
+  display: block;
+  max-width: 300;
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+}
+.portfolio-heading{
+  color: black;
+}
+
+main .fa{
+  font-size: 2em;
+  color: #1155cc;
+}
+
+.nav-icons{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 550px;
+ 
+}
+
+.resume-wrapper{
+  background-color: #e8e6e3;
+  max-width: 800px;         
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.75in;      
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.15),
+    0 6px 24px rgba(0,0,0,0.10);
+  box-sizing: border-box;
+  border-bottom: 2px solid #8c8c8c;
+  border-right: 2px solid #8c8c8c;
+}
+
+/* Override Bootstrap's container-fluid */
+.resume-wrapper .container-fluid {   
+  padding: 0;
+  max-width: 480px;
+}
+
+.resume-wrapper h1, h2, h3{
+  color: black;
+}
+
+.resume-wrapper h1{
+  font-size: 50px;
+}
+
+.resume-wrapper .row {
+  margin: 0;
+}
+
+.resume-wrapper .col-sm-12 {
+  padding: 0;
+}
+
+
+.contact-wrapper {
+  /*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
+   min-height: 100vh;*/
+   /*background-color: #e8e6e3;*/
+
+  background-color: #b3b3b3;
+  color: black;
+  max-width: 800px;         
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.75in;      
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.15),
+    0 6px 24px rgba(0,0,0,0.10);
+  box-sizing: border-box;
+  border-bottom: 2px solid #8c8c8c;
+  border-right: 2px solid #8c8c8c;
+  border-top: 2px solid #8c8c8c;
+    }
+
+.title {
+  font-size: 2.25rem;
+  border-bottom: 2px solid #6b7280;
+  padding-bottom: 4px;
+  text-align: center;
+  color: black;
+
+}
+
+.form-control {
+  background: antiquewhite;
+  border: 2px solid #d9d9d9;
+  color: #000000;
+  border-radius: 6px;
+}
+
+/*.form-control::placeholder {
+  color: #ccc;
+}*/
+
+.form-control:focus {
+  background: transparent;
+  color: #000000;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.btn-form {
+  background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+}
+
+.btn-form {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-form:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+form label{
+  color: black;
+}
+ form h5{
+  color: black;
+ }
+
+footer{
+  text-align: center;
+  border-top: #e6e6e6 2px solid;
+  background-color: #1f004d;
+  color: white;
+  padding-top: 20px;
+}
+.copy-right{
+  background-color: #000000;
+  height: 50px;
+  font-size: 25px;
+}
+
+.project-gallery img{
+    /*width: 800px;
+    height: 600px;*/
+    width: 100%;
+    height: auto;
+    margin: 20px 10px 10px 0;
+    background-size: cover;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.message{
+  background-color: #e6e6e6;
+  margin: 30px 150px 30px 0px;
+  color: black;
+  text-align: left;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer .first-col{
+  text-align: left;
+}
+
+footer h3{
+  color: white;
+}
+
+.footer-icons a{
+  color: white;
+
+}
+
+.footer-width{
+  max-width: 1000;
+  margin: 0 auto;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 30px;
+    border: #d1d1e0 2px solid;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #6666ff;
+    }
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+  font-size: 4em;
+}
+
+
+body{
+
+  font-family: "Tajawal", sans-serif; 
+  font-weight: 200; 
+}
+h1, h2, h3{  
+   font-family: "Bakbak One", sans-serif;
+   font-weight: 400;
+}
+
+
+
+/* Css Adjustments for tablets */
+
+@media only screen and (max-width: 1024px){
+    h1{
+    font-size: 2em;
+    }
+
+}
+
+/* Css Adjustments for smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+    font-size: 1.5em;
+  }
+ 
+}

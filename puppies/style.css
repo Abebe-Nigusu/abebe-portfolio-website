@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+/* This is a CSS file for template website */
+
+body{
+	 font-family: "Roboto", sans-serif;
+	 color: #333333;
+	 margin: 0;
+}
+
+h1, h2{
+	font-family: "Changa One", sans-serif;
+}
+
+header{
+	text-align: center;
+}
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+nav{
+  text-align: center;
+  background-color: #79d2a6;
+  border-bottom: 3px solid black ;
+  border-top: 3px solid black;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  marging: 8px 0;
+
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav a:link{
+  color:purple;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:red;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+  background-color: #e6ffe6;
+}
+
+footer{
+	text-align: center;
+  border-top: purple 4px solid;
+  background-color: #79d2a6;
+}
+
+footer .fa{
+  font-size: 2em;
+  color: #d24dff;
+}
+
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+}
+
+main .col-sm-4 h3{
+  color:   #ff9900; 
+}
+
+blockquote{
+  background-color:   #f2f2f2;
+  border-left: 10px solid gray ;
+  padding:  30px;
+
+}
+
+img{
+  display:  block;
+  margin:   0 auto ;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+  background-color:   lightgray;
+  font-size: 4em;
+  color:  #ff9900;
+  margin:   0 auto ;
+}
+
+/* Css Adjustments for tablets */
+
+@media only screen and (max-width: 1024px){
+    h1{
+    font-size: 2em;
+    }
+
+}
+
+/* Css Adjustments for smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+    font-size: 1.5em;
+  }
+ 
+}

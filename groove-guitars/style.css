@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+/* This is a CSS file for template website */
+
+body{
+	 font-family: "Roboto", sans-serif;
+	 color: #333333;
+	 margin: 0;
+}
+
+h1, h2{
+	font-family: "Changa One", sans-serif;
+	color: #1155cc;
+}
+
+header{
+	text-align: center;
+  background-color: black;
+}
+
+.home-heading{
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-bottom: 5px solid #000000;
+  text-align: center;
+}
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+nav{
+  text-align: center;
+  /*background-color: fuchsia;*/
+  border-bottom: 3px solid black ;
+  border-top: 3px solid black;
+  background: #689b2a;
+  background: linear-gradient(90deg, rgba(104, 155, 42, 1) 0%, rgba(227, 114, 242, 1) 14%, rgba(211, 224, 135, 1) 100%);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  marging: 8px 0;
+
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav a:link{
+  color:purple;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:red;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+  border-top: purple 4px solid;
+  background-color: #ff99ff;
+  background: #689b2a;
+  background: linear-gradient(90deg, rgba(104, 155, 42, 1) 0%, rgba(227, 114, 242, 1) 14%, rgba(211, 224, 135, 1) 100%);
+}
+footer p a {
+  text-decoration: none;
+}
+
+
+.logo{
+  max-width: 275px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-hero{
+  background-image: url("images/guitars.jpg");
+  background-size: cover;
+  background-color: #330000;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.home-hero h1{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #800080;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* CSS for Table starts her */
+ td{
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+table{
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 0 auto;
+}
+th{
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-bottom: 5px solid #000000;
+} 
+tr:nth-child(even){
+  background-color: #eeeeee;
+}
+
+/* CSS for Form starts her */
+input[type=submit]{
+  width: 200px;
+  display: block;
+  background-color: #cc0066;
+  color: white;
+  border-radius: 25%;
+  height: 40px;
+  font-weight: bold;
+}
+input[type=text],
+input[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+  height: 20px;
+  border-radius: 5px;
+}
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input{
+  display: block;
+  margin-bottom: 1em;
+}
+
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+textarea{
+  background-color: #eeeeee;
+  display: block;
+  width: 100%;         
+  height: 120px;
+}
+
+form{
+  width: 500px;
+  margin: 50px auto;
+  border: 5px solid black;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.grooves-header{
+  color: #ff4dff;
+}
+
+.grooves-text{
+  background-color: #ff4dff;
+  color:  white;
+  text-align: center;
+}
+
+.grooves-video{
+  margin-bottom: 30px;
+}
+
+.about-header{
+  color: #bf00ff;
+}
+
+.about-text{
+  background-color: #b300b3;
+  color:  white;
+  text-align: center;
+}
+
+.float-right{
+  float: right;
+  max-width: 50%;
+  height: auto;
+  /*box-shadow: 5px 5px #bfbfbf;
+  border: 3px solid #1a000d;
+  border-radius: 10px;;
+  margin-bottom: 20px;*/
+  margin: 50px 0 10px 20px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+  font-size: 4em;
+}
+/* Css Adjustments for tablets */
+
+@media only screen and (max-width: 1024px){
+    h1{
+    font-size: 2em;
+    }
+
+}
+
+/* Css Adjustments for smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+    font-size: 1.5em;
+  }
+ 
+}
+
